@@ -19,3 +19,4 @@ const BOdy = {
   }
 }
 const Body = Object.create(BOdy);
+const message = alert;
