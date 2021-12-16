@@ -22,3 +22,5 @@ const Body = Object.create(BOdy);
 const doc = document;
 const date = new Date;
 const math = new Math;
+const conf = confirm;
+const message = alert;
