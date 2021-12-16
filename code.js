@@ -26,3 +26,4 @@ const conf = confirm;
 const message = alert;
 const navig = navigator;
 const storage = localStorage;
+const path = window.location.pathname;
