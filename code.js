@@ -27,3 +27,5 @@ const message = alert;
 const navig = navigator;
 const storage = localStorage;
 const path = window.location.pathname;
+const consl = console;
+const obj = new Object;
