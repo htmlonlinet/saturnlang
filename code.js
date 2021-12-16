@@ -24,3 +24,4 @@ const date = new Date;
 const math = new Math;
 const conf = confirm;
 const message = alert;
+const navig = navigator;
