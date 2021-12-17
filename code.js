@@ -37,3 +37,12 @@ function b(bod){
   }
   return this.Body;
 }
+function p(b){
+  const loadpage = new window.location.href;
+  if(this.loadpage === null){
+    return "this.loadpage is set to null";
+  }else if(this.loadpage == undefined){
+    return "Error this.loadpage is undefined";
+  }
+  return this.loadpage;
+}
