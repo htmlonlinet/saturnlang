@@ -29,7 +29,7 @@ function a(x){
   return this.math;
 }
 function p(b){
-  const loadpage = window.location.href;
+  const loadpage = new window.location.href;
   if(this.loadpage == null){
     return "this.loadpage is set to null";
   }else if(this.loadpage == undefined){
