@@ -30,3 +30,4 @@ const path = window.location.pathname;
 const consl = console;
 const obj = new Object;
 const hist = window.history;
+const comment = new Comment;
