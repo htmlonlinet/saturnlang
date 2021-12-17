@@ -16,5 +16,4 @@ function num(str) {
   }
   return this.number;
 }
-number = 60;
 console.log(number);
