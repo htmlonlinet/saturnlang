@@ -16,4 +16,10 @@ function num(str) {
   }
   return this.number;
 }
-console.log(number);
+function a(x){
+  const adding = 0;
+  if(adding == null){
+    return null;
+  }
+  return this.adding;
+}
