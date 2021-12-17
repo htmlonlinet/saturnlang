@@ -17,9 +17,9 @@ function num(str) {
   return this.number;
 }
 function a(x){
-  const adding = 0;
-  if(adding == null){
+  const math = 0;
+  if(math == null){
     return null;
   }
-  return this.adding;
+  return this.math;
 }
