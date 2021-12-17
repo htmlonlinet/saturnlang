@@ -30,10 +30,19 @@ function a(x){
 }
 function p(b){
   const loadpage = window.location.href;
-  if(loadpage == null){
+  if(this.loadpage == null){
     return "this.loadpage is set to null";
-  }else if(loadpage == undefined){
-    return "Error loadpage is undefined";
+  }else if(this.loadpage == undefined){
+    return "Error this.loadpage is undefined";
   }
   return this.loadpage;
+}
+function b(){
+  const Body = document.body;
+  if(this.Body == undefined){
+    return "Error this.Body is undefined";
+  }else if(this.Body == null){
+    return "Error this.body is set to null";
+  }
+  return this.Body;
 }
