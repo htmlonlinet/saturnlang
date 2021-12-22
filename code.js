@@ -55,18 +55,3 @@ function writemes(w){
   }
   return this.message;
 }
-function a(ad){
-  const adblock = false;
-  if(window.closed == true){
-    adblock = true;
-  }
-  if(adblock === undefined){
-    return "adblock is undefined!";
-  }else if(adblock === null){
-    return "adblock is set to null!";
-  }
-  return this.adblock;
-  if(adblock == true){
-    alert("Disable adblock!");
-  }
-}
