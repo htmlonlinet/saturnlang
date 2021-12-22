@@ -46,3 +46,12 @@ function p(b){
   }
   return this.loadpage;
 }
+function writemes(w){
+  const message = 5;
+  if(this.message === undefined){
+    return "Error this.message is undefined";
+  }else if(this.message === null){
+    return "Error this.message is set to null";
+  }
+  return this.message;
+}
