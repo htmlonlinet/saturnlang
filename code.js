@@ -29,7 +29,7 @@ function a(x){
   return this.math;
 }
 function b(bod){
-  const Body = document.body;
+  const element = 0;
   if(this.Body === undefined){
     return "Error this.Body is undefined";
   }else if(this.Body === null){
