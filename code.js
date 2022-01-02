@@ -30,12 +30,12 @@ function a(x){
 }
 function b(bod){
   const element = 0;
-  if(this.Body === undefined){
+  if(this.element === undefined){
     return "Error this.Body is undefined";
-  }else if(this.Body === null){
+  }else if(this.elemenr === null){
     return "Error this.body is set to null";
   }
-  return this.Body;
+  return this.element;
 }
 function p(b){
   const assign = new window.location.assign;
