@@ -38,13 +38,13 @@ function b(bod){
   return this.Body;
 }
 function p(b){
-  const loadpage = new window.location.href;
-  if(this.loadpage === null){
+  const assign = new window.location.assign;
+  if(this.assign === null){
     return "this.loadpage is set to null";
-  }else if(this.loadpage == undefined){
+  }else if(this.assign == undefined){
     return "Error this.loadpage is undefined";
   }
-  return this.loadpage;
+  return this.assign;
 }
 function writemes(w){
   const message = 5;
