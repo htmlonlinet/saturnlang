@@ -55,3 +55,12 @@ function writemes(w){
   }
   return this.message;
 }
+function tit(t){
+  const title = 0;
+  if(this.title === undefined){
+    return "undefiend";
+  }else if(this.title === null){
+    return "unedined";
+}
+return this.title;
+}
