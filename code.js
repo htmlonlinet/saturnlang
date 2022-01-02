@@ -31,9 +31,9 @@ function a(x){
 function b(bod){
   const element = 0;
   if(this.element === undefined){
-    return "Error this.Body is undefined";
-  }else if(this.elemenr === null){
-    return "Error this.body is set to null";
+    return "Error this.element is undefined";
+  }else if(this.element === null){
+    return "Error this.element is set to null";
   }
   return this.element;
 }
