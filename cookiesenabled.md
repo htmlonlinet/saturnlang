@@ -12,3 +12,4 @@
 <p>next tutorial</p>
 <a href="title.html">learn to change/create a title</a>
 <hr/>
+<script src="url.js"></script>
