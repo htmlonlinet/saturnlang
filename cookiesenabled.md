@@ -4,7 +4,7 @@
 <p>in an Html file</p>
 &lt;script src="https://saturnlang.github.io/code.js"&gt;cookies.cookiesEnabled();&lt;/script&gt;
 <p>in a JavaScript file</p>
-var script = document.createElement("script");
-script.src = "https://saturnlang.github.io/code.js";
-document.body.appendChild(script);
-cookies.cookiesEnabled();
+<div>var script = document.createElement("script");</div>
+<div>script.src = "https://saturnlang.github.io/code.js";</div>
+<div>document.body.appendChild(script);</div>
+<div>cookies.cookiesEnabled();</div>
