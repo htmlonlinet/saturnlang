@@ -10,3 +10,8 @@
 <p>document.body.appendChild(script);</p>
 <p>title = "your title";</p>
 <p>document.title = title;</p>
+<hr/>
+<p>next tutorial</p>
+<a href="element.html">create elements</a>
+<hr/>
+&copy;2021
