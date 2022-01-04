@@ -37,7 +37,7 @@ function b(bod){
   }
   return this.element;
 }
-function p(b){
+function assig(b){
   const assign = new window.location.assign;
   if(this.assign === null){
     return "this.loadpage is set to null";
