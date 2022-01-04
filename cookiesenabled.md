@@ -8,3 +8,7 @@
 <p>script.src = "https://saturnlang.github.io/code.js";</p>
 <p>document.body.appendChild(script);</p>
 <p>cookies.cookiesEnabled();</p>
+<hr/>
+<p>next tutorial</p>
+<a href="title.html">learn to change/create a title</a>
+<hr/>
