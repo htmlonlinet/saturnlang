@@ -14,4 +14,3 @@
 <p>next tutorial</p>
 <a href="element.html">create elements</a>
 <hr/>
-&copy;2021
