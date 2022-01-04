@@ -5,8 +5,8 @@
 <h7>document.title = title;&lt;/script&gt;</h7>
 
 <p>in a JavaScript file</p>
-<h1>var script = document.createElement("script");</h1>
-<h2>script.src = "https://saturnlang.github.io/saturnlang/code.js";</h2>
-<h3>document.body.appendChild(script);</h3>
-<h4>title = "your title";</h4>
-<h5>document.title = title;</h5>
+<p>var script = document.createElement("script");</p>
+<p>script.src = "https://saturnlang.github.io/saturnlang/code.js";</p>
+<p>document.body.appendChild(script);</p>
+<p>title = "your title";</p>
+<p>document.title = title;</p>
