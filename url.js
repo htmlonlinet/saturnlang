@@ -8,5 +8,5 @@ if(window.location.href == "https://saturnlang.github.io/saturnlang/title.html")
   window.location.href = "https://saturnlang.github.io/saturnlang/title";
 }
 if(window.undefiend){
-  window.location.assign("https://saturnlang.github.io/404");
+  window.location.assign("https://saturnlang.github.io/404.html");
 }
