@@ -58,9 +58,9 @@ function writemes(w){
 function tit(t){
   const title = 0;
   if(this.title === undefined){
-    return "undefiend";
+    return "title is undefined";
   }else if(this.title === null){
-    return "unedined";
+    return "title is set to null";
 }
 return this.title;
 }
