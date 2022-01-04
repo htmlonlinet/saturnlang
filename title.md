@@ -12,5 +12,5 @@
 <p>document.title = title;</p>
 <hr/>
 <p>next tutorial</p>
-<a href="element.html">create elements</a>
+<a href="element">create elements</a>
 <hr/>
