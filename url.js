@@ -7,6 +7,6 @@ if(window.location.href == "https://saturnlang.github.io/saturnlang/cookiesenabl
 if(window.location.href == "https://saturnlang.github.io/saturnlang/title.html"){
   window.location.href = "https://saturnlang.github.io/saturnlang/title";
 }
-if(window.location.href == "https://saturnlang.github.io/saturnlang/fr"){
+if(window.location.href == "https://saturnlang.github.io/saturnlang.fr"){
   alert("french");
 }
