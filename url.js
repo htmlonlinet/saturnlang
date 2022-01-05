@@ -1,3 +1,3 @@
-var link = "https://saturnlang.github.io/saturnlang/";
-link.split('.html')[0];
-window.history.replaceState( null, null, link );
+var url = window.location.href;
+url = url.split('.html')[0];
+window.history.replaceState( null, null, url );
