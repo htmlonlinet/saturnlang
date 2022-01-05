@@ -1,3 +1,3 @@
-var url = "https://saturnlang.github.io/saturnlang/index.html";
+var url = "https://saturnlang.github.io/saturnlang/";
 url.split('.html')[0];
 window.history.replaceState( null, null, url );
