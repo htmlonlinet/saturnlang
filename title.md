@@ -9,7 +9,7 @@
 <p>script.src = "https://saturnlang.github.io/saturnlang/code.js";</p>
 <p>document.body.appendChild(script);</p>
 <p>title = "your title";</p>
-<p>document.title = title;</p>
+<p>doc.title = title;</p>
 <hr/>
 <p>next tutorial</p>
 <a href="element.html">create elements</a>
