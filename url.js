@@ -9,7 +9,7 @@ if(window.location.href == elem){
   window.location.href = "https://saturnlang.github.io/saturnlang/element";
 }
 if(window.location.href == cookieenabled){
-  window.location.href ="https://saturnlang.github.io/saturnlang/cookieenabled";
+  window.location.href ="https://saturnlang.github.io/saturnlang/cookiesenabled";
 }
 if(window.location.href == tit){
   window.location.href = "https://saturnlang.github.io/saturnlang/title";
