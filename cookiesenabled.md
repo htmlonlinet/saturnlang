@@ -1,6 +1,8 @@
 <title>check if cookies are enabled</title>
-<p>check if cookies are enabled</p>
-
+<script>
+  document.getElementById("title").innerText = document.title;
+</script>
+  <p id="title"></p>
 <p>in an Html file</p>
 &lt;script src="https://saturnlang.github.io/code.js"&gt;cookies.cookiesEnabled();&lt;/script&gt;
 <p>in a JavaScript file</p>
