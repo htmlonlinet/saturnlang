@@ -64,7 +64,7 @@ function tit(t){
 }
 return this.title;
 }
-function popupmes(){
+function popupmes(pmes){
   const popmes = alert;
   if(this.popmes === undefined){
     return "popmes is undefined";
@@ -74,7 +74,7 @@ function popupmes(){
   if(this.popmes == document){
     return "Error, you can't set this to document!";
   }else if(this.popmes == prompt){
-    return "Error, you can't set this to prompt!";
+    return "Error, you can't set this to prompt!";'
   }
   return this.popmes;
 }
