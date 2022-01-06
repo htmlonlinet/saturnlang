@@ -64,3 +64,11 @@ function tit(t){
 }
 return this.title;
 }
+function popupmes(){
+  const popmes = alert;
+  if(this.popmes === undefined){
+    return "popmes is undefined";
+  }else if(this.popmes === null){
+    return "popmes is set to null";
+  }
+}
