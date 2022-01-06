@@ -28,7 +28,7 @@ function a(x){
   }
   return this.math;
 }
-function b(bod){
+function elem(bod){
   const element = 0;
   if(this.element === undefined){
     return "Error this.element is undefined";
