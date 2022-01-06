@@ -71,5 +71,10 @@ function popupmes(){
   }else if(this.popmes === null){
     return "popmes is set to null";
   }
+  if(this.popmes == document){
+    return "Error, you can't set this to document!";
+  }else if(this.popmes == prompt){
+    return "Error, you can't set this to prompt!";
+  }
   return this.popmes;
 }
