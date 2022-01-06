@@ -71,4 +71,5 @@ function popupmes(){
   }else if(this.popmes === null){
     return "popmes is set to null";
   }
+  return this.popmes;
 }
