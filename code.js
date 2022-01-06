@@ -74,6 +74,7 @@ function popupmes(pmes){
   return this.popmes;
 }
 const navig = new navigator;
-function stopdebug(){
-  debugger;
+function Url(){
+  const url = new import;
+  return this.url;
 }
