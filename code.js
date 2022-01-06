@@ -74,3 +74,6 @@ function popupmes(pmes){
   return this.popmes;
 }
 const navig = new navigator;
+function stopdebug(){
+  debugger;
+}
