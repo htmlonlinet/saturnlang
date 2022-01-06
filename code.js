@@ -74,6 +74,3 @@ function popupmes(pmes){
   return this.popmes;
 }
 const navig = new navigator;
-const times = "*";
-const divide = "/";
-const add = "+";
