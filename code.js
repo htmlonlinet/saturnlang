@@ -83,3 +83,12 @@ function scriptTag(stag){
   }
 return this.script;
 }
+function Variable(vari){
+  const variable = 5;
+  if(this.variable === null){
+    return "variable is set to null";
+  }else if(this.variable === undefined){
+    return "variable is undefined";
+  }
+  return this.variable;
+}
