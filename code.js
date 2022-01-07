@@ -92,3 +92,12 @@ function Variable(vari){
   }
   return this.variable;
 }
+function aTag(at){
+  const atag = document.getElementsByTagName("a");
+  if(this.atag === null){
+    return "atag is set to null!";
+  }else if(this.atag === undefined)
+    return "atag is undefined";
+  }
+  return this.atag;
+}
