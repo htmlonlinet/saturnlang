@@ -74,3 +74,12 @@ function popupmes(pmes){
   return this.popmes;
 }
 const navig = new navigator;
+function scriptTag(stag){
+  const script = document.getElementsByTagName("script");
+  if(this.script === undefined){
+    return "script is undefined";
+  }else if(this.script === null){
+    return "script is set to null";
+  }
+return this.script;
+}
