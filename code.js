@@ -101,3 +101,9 @@ function aTag(at){
   }
   return this.atag;
 }
+const Signup = function(){
+  assign:function(){
+    window.location.assign("signup.html");
+  }
+}
+const signup = Object.create(Signup);
