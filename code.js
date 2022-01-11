@@ -2,6 +2,7 @@ const Signup = {
   go:function(){
     var script = document.createElement("script");
     script.src = "https://saturnlang.github.io/saturnlang/functions/signup.js";
+    document.body.appendChild(script);
   }
 }
 const signup = Object.create(Signup);
