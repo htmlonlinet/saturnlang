@@ -101,7 +101,7 @@ function aTag(at){
   }
   return this.atag;
 }
-const Signup = function(){
+const Signup = {
   assign:function(){
     window.location.assign("signup.html");
   }
