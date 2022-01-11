@@ -101,3 +101,11 @@ function aTag(at){
   }
   return this.atag;
 }
+function Signup(signUp){
+  const signup = 5;
+  if(this.signup === true){
+    var script = document.createElement("script");
+    script.src = "functions/signup.js";
+    document.body.appendChild(script);
+  }
+}
