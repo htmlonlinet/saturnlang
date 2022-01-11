@@ -102,7 +102,7 @@ function aTag(at){
   return this.atag;
 }
 const Signup = {
-  assign:function(){
+  load:function(){
     window.location.assign("signup.html");
   }
 }
