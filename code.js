@@ -101,9 +101,13 @@ function aTag(at){
   }
   return this.atag;
 }
-const Signup = {
-  load:function(){
-    window.location.assign("signup.html");
+function Hello(){
+  const hello = true;
+  if(this.hello === null){
+    return "this is set to null";
+  }else if(this.hello === true){
+    const script = "functions/hello.js";
+    document.createElement(script);
   }
+  return this.includeaddnumbers;
 }
-const signup = Object.create(Signup);
