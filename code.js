@@ -1,3 +1,9 @@
+const signup = {
+  go:function(){
+    var script = document.createElement("script");
+    script.src = "https://saturnlang.github.io/saturnlang/functions/signup.js";
+  }
+}
 const Cookies = {
   cookiesEnabled:function(){
     if(navigator.cookieEnabled)
@@ -100,13 +106,4 @@ function aTag(at){
     return "atag is undefined";
   }
   return this.atag;
-}
-function Signup(signUp){
-  const signup = 5;
-  if(this.signup === null){
-    return "this is set to null";
-  }else if(this.signup === undefined){
-    return "this is set to undefined";
-  }
-  return this.signup;
 }
