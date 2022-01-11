@@ -103,10 +103,10 @@ function aTag(at){
 }
 function Signup(signUp){
   const signup = 5;
-  if(this.signup === true){
-    var script = document.createElement("script");
-    script.src = "functions/signup.js";
-    document.body.appendChild(script);
+  if(this.signup === null){
+    return "this is set to null";
+  }else if(this.signup === undefined){
+    return "this is set to undefined";
   }
   return this.signup;
 }
