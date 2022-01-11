@@ -108,4 +108,5 @@ function Signup(signUp){
     script.src = "functions/signup.js";
     document.body.appendChild(script);
   }
+  return this.signup;
 }
