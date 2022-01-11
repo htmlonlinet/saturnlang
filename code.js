@@ -1,9 +1,10 @@
-const signup = {
+const Signup = {
   go:function(){
     var script = document.createElement("script");
     script.src = "https://saturnlang.github.io/saturnlang/functions/signup.js";
   }
 }
+const signup = Object.create(Signup);
 const Cookies = {
   cookiesEnabled:function(){
     if(navigator.cookieEnabled)
