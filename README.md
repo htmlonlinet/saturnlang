@@ -3,14 +3,9 @@
 <a href="title.html">create a title</a>
 <script src="url.js"></script>
 <div id="nav"><span onclick="close()">x</span></div>
-<style>
-  .nav{
-  background-color:black;
-  height:1000px;
-  width:1000px;
-}
-.nav span{color:white;}
-</style>
+<head>
+  <link rel="stylesheet" href="https://saturnlang.github.io/codingtutorials.online/css/nav.css"/>
+  </head>
 <script src="code.js">function(){
   doc.getElementById("nav").style.display ="none";
   }
