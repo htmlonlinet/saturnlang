@@ -1,9 +1,7 @@
-<div id="clinks"><p>tutorials for saturnlang</p>
+<p>tutorials for saturnlang</p>
 <a href="cookiesenabled.html">check if cookies are enabled</a>
 <a href="title.html">create a title</a>
-  <a href="javascript:links()">more links</a></div>
-<select id="links"><option value="1">display links</option><option value="2">don't display links</option></select>
-<button onclick="display()">go</button>
+  <a href="javascript:links()">more links</a>
 <script src="url.js"></script>
 <head>
   <link rel="stylesheet" href="https://saturnlang.github.io/codingtutorials.online/css/nav.css"/>
@@ -11,21 +9,5 @@
 <script>
   function links(){
     window.location.assign("links.html");      
-  }
-  function display(){
-    var show = true;
-    var showfalse = false;
-    if(document.getElementById("links").value == "1"){
-      show = true;
-      localStorage.setItem("showLinks", show);
-    }else if(document.getElementById("links").value == "2"){
-      show = false;
-      showfalse = true;
-      localStorage.setItem("showfalse", showfalse);
-      if(localStorage.getItem("showlinks")){
-        localStorage.removeItem("showlinks");
-        document.getElementById("clinks").style.display ="none";
-      }
-    }
   }
  </script>
