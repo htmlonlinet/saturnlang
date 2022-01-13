@@ -7,7 +7,7 @@ var yourhtmltag = doc.createElement(element);
 doc.body.appendChild(element);&lt;/script&gt;
 <p>in a JavaScript file</p>
 <p>var script = document.createElement("script");</p>
-<p>script.src = "https://saturnlang.github.io/code.js";</p>
+<p>script.src = "https://saturnlang.github.io/saturnlang/code.js";</p>
 <p>document.body.appendChild(script);</p>
 <p>element = "your html tag";</p>
 <p>var yourhtmltag = doc.createElement(element);</p>
