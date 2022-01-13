@@ -3,7 +3,7 @@
 
 <p>in an Html file</p>
 &lt;script src="https://saturnlang.github.io/code.js"&gt;element = "your html tag";
-var yourhtmltag = document.createElement(element);
+var yourhtmltag = doc.createElement(element);
 doc.body.appendChild(element);&lt;/script&gt;
 <p>in a JavaScript file</p>
 <p>var script = document.createElement("script");</p>
