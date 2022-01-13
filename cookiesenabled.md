@@ -4,10 +4,10 @@
 </script>
   <p id="title"></p>
 <p>in an Html file</p>
-&lt;script src="https://saturnlang.github.io/code.js"&gt;cookies.cookiesEnabled();&lt;/script&gt;
+&lt;script src="https://saturnlang.github.io/saturnlang/code.js"&gt;cookies.cookiesEnabled();&lt;/script&gt;
 <p>in a JavaScript file</p>
 <p>var script = document.createElement("script");</p>
-<p>script.src = "https://saturnlang.github.io/code.js";</p>
+<p>script.src = "https://saturnlang.github.io/saturnlang/code.js";</p>
 <p>document.body.appendChild(script);</p>
 <p>cookies.cookiesEnabled();</p>
 <hr/>
