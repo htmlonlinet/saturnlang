@@ -8,4 +8,7 @@
     document.getElementById("warn").style.display ="none";
     document.getElementById("p2").style.display = "block";
   }
+  if(document.body.onerror){
+    document.write("Error, the page could not load, <button onclick='window.location.reload()'>Reload Website</button>")
+  }
 </script>
