@@ -6,7 +6,7 @@
 <head>
   <link rel="stylesheet" href="https://saturnlang.github.io/codingtutorials.online/css/nav.css"/>
   </head>
-<script src="code.js">function(){
+<script src="code.js">function close(){
   doc.getElementById("nav").style.display ="none";
   }
  </script>
