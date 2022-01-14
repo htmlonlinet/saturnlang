@@ -5,5 +5,5 @@ function go(){
  document.body.appendChild(iframe);
  document.getElementById("link").style.display = "none";
  document.getElementById("hr").style.display = "none";
- window.location.href = "https://saturnlang.github.io/saturnlang?iframe=" + iframe.src;
+ window.location.href = "https://saturnlang.github.io/saturnlang?option=" + document.getElementById("option").value;
 }
