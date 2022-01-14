@@ -7,6 +7,9 @@ function go(){
  document.getElementById("hr").style.display = "none";
  window.location.hash = "#option=" + document.getElementById("option").value;
 }
-if(window.location.hash == "#option=home.html"){iframe.src ="home.html";}
-if(window.location.hash == "#option=page2.html"){iframe.src = "page2.html";}
-if(window.location.hash == "#option=page3.html"){iframe.src = "page3.html";}
+if(window.location.hash == "#option=home.html"){iframe.slyle.display ="block"; 
+                                                iframe.src ="home.html";}
+if(window.location.hash == "#option=page2.html"){iframe.style.display ="block"; 
+                                                 iframe.src = "page2.html";}
+if(window.location.hash == "#option=page3.html"){iframe.style.display ="block";
+                                                 iframe.src = "page3.html";}
