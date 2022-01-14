@@ -1,14 +1,8 @@
-<p id="warn">Are you sure you want to enter this page when it's not ready?</p>
-<button id="go" onclick="go()">Yes</button> <button id="back" onclick="window.location.back()">No</button>
-<div style="display:none;" id="p2"><h1>Page 2</h1></div>
-<script>
-  function go(){
-    document.getElementById("go").style.display = "none";
-    document.getElementById("back").style.display ="none";
-    document.getElementById("warn").style.display ="none";
-    document.getElementById("p2").style.display = "block";
-  }
-  if(document.body.onerror){
-    document.write("Error, the page could not load, <button onclick='window.location.reload()'>Reload Website</button>")
-  }
-</script>
+<html>
+<body>
+<head><script src='page2.js'>
+</script><link rel="stylesheet" href='index.css'/></head>
+<p style="text-align:center;" id="loading">Loading... wait 9 seconds</p>
+<div id="content" class="content" style="display:none;"><h1>page two</h1></div>
+</body>
+</html>
